@@ -1,5 +1,5 @@
 name: ftp-deploy
-version: 1.0.1
+version: 1.0.2
 description: Sync your FTP files using remote list for files md5sum's and comparing with local md5sum.
 keywords:
   - ftp
@@ -16,12 +16,13 @@ properties:
   password:
     type: string
     required: true
+  subfolder:
+    type: string
+    required: true
   remote-file:
     type: string
     required: false
   timeout:
     type: string
     required: false
-  subfolder:
-    type: string
-    required: false
+  
