@@ -22,5 +22,6 @@ properties:
   timeout:
     type: string
     required: false
-
-
+  subfolder:
+    type: string
+    required: false
